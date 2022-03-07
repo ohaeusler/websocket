@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"nhooyr.io/websocket/internal/test/assert"
+	"nhooyr.io/websocket/test/assert"
 )
 
 func TestBadDials(t *testing.T) {

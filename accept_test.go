@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"nhooyr.io/websocket/internal/test/assert"
+	"nhooyr.io/websocket/test/assert"
 )
 
 func TestAccept(t *testing.T) {

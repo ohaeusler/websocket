@@ -16,9 +16,9 @@ import (
 	"time"
 
 	"nhooyr.io/websocket"
-	"nhooyr.io/websocket/internal/errd"
-	"nhooyr.io/websocket/internal/test/assert"
-	"nhooyr.io/websocket/internal/test/wstest"
+	"nhooyr.io/websocket/errd"
+	"nhooyr.io/websocket/test/assert"
+	"nhooyr.io/websocket/test/wstest"
 )
 
 var excludedAutobahnCases = []string{

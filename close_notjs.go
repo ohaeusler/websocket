@@ -10,7 +10,7 @@ import (
 	"log"
 	"time"
 
-	"nhooyr.io/websocket/internal/errd"
+	"nhooyr.io/websocket/errd"
 )
 
 // Close performs the WebSocket close handshake with the given status code and reason.

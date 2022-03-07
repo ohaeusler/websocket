@@ -21,11 +21,11 @@ import (
 	"github.com/golang/protobuf/ptypes/duration"
 
 	"nhooyr.io/websocket"
-	"nhooyr.io/websocket/internal/errd"
-	"nhooyr.io/websocket/internal/test/assert"
-	"nhooyr.io/websocket/internal/test/wstest"
-	"nhooyr.io/websocket/internal/test/xrand"
-	"nhooyr.io/websocket/internal/xsync"
+	"nhooyr.io/websocket/errd"
+	"nhooyr.io/websocket/test/assert"
+	"nhooyr.io/websocket/test/wstest"
+	"nhooyr.io/websocket/test/xrand"
+	"nhooyr.io/websocket/xsync"
 	"nhooyr.io/websocket/wsjson"
 	"nhooyr.io/websocket/wspb"
 )

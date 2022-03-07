@@ -3,7 +3,7 @@ package xsync
 import (
 	"testing"
 
-	"nhooyr.io/websocket/internal/test/assert"
+	"nhooyr.io/websocket/test/assert"
 )
 
 func TestGoRecover(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"nhooyr.io/websocket"
-	"nhooyr.io/websocket/internal/test/assert"
-	"nhooyr.io/websocket/internal/test/xrand"
-	"nhooyr.io/websocket/internal/xsync"
+	"nhooyr.io/websocket/test/assert"
+	"nhooyr.io/websocket/test/xrand"
+	"nhooyr.io/websocket/xsync"
 )
 
 // EchoLoop echos every msg received from c until an error

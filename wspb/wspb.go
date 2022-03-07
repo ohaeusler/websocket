@@ -9,8 +9,8 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	"nhooyr.io/websocket"
-	"nhooyr.io/websocket/internal/bpool"
-	"nhooyr.io/websocket/internal/errd"
+	"nhooyr.io/websocket/bpool"
+	"nhooyr.io/websocket/errd"
 )
 
 // Read reads a protobuf message from c into v.

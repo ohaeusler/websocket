@@ -7,8 +7,8 @@ import (
 	"fmt"
 
 	"nhooyr.io/websocket"
-	"nhooyr.io/websocket/internal/bpool"
-	"nhooyr.io/websocket/internal/errd"
+	"nhooyr.io/websocket/bpool"
+	"nhooyr.io/websocket/errd"
 )
 
 // Read reads a JSON message from c into v.
