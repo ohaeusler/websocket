@@ -1,3 +1,4 @@
+//go:build !js
 // +build !js
 
 package websocket
@@ -16,7 +17,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"nhooyr.io/websocket/errd"
+	"github.com/ohaeusler/websocket/errd"
 )
 
 // AcceptOptions represents Accept's options.

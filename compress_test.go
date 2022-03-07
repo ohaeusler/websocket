@@ -1,3 +1,4 @@
+//go:build !js
 // +build !js
 
 package websocket
@@ -6,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"nhooyr.io/websocket/test/assert"
-	"nhooyr.io/websocket/test/xrand"
+	"github.com/ohaeusler/websocket/test/assert"
+	"github.com/ohaeusler/websocket/test/xrand"
 )
 
 func Test_slidingWindow(t *testing.T) {

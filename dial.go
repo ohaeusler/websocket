@@ -1,3 +1,4 @@
+//go:build !js
 // +build !js
 
 package websocket
@@ -17,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"nhooyr.io/websocket/errd"
+	"github.com/ohaeusler/websocket/errd"
 )
 
 // DialOptions represents Dial's options.

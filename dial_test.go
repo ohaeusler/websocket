@@ -1,3 +1,4 @@
+//go:build !js
 // +build !js
 
 package websocket
@@ -13,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"nhooyr.io/websocket/test/assert"
+	"github.com/ohaeusler/websocket/test/assert"
 )
 
 func TestBadDials(t *testing.T) {
@@ -34,11 +35,11 @@ func TestBadDials(t *testing.T) {
 			},
 			{
 				name: "badURLScheme",
-				url:  "ftp://nhooyr.io",
+				url:  "ftp://github.com/ohaeusler",
 			},
 			{
 				name: "badTLS",
-				url:  "wss://totallyfake.nhooyr.io",
+				url:  "wss://totallyfake.github.com/ohaeusler",
 			},
 			{
 				name: "badReader",

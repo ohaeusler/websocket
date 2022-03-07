@@ -1,3 +1,4 @@
+//go:build !js
 // +build !js
 
 package websocket
@@ -10,7 +11,7 @@ import (
 	"log"
 	"time"
 
-	"nhooyr.io/websocket/errd"
+	"github.com/ohaeusler/websocket/errd"
 )
 
 // Close performs the WebSocket close handshake with the given status code and reason.

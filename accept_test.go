@@ -1,3 +1,4 @@
+//go:build !js
 // +build !js
 
 package websocket
@@ -11,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"nhooyr.io/websocket/test/assert"
+	"github.com/ohaeusler/websocket/test/assert"
 )
 
 func TestAccept(t *testing.T) {

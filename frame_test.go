@@ -1,3 +1,4 @@
+//go:build !js
 // +build !js
 
 package websocket
@@ -16,7 +17,7 @@ import (
 	"github.com/gobwas/ws"
 	_ "github.com/gorilla/websocket"
 
-	"nhooyr.io/websocket/test/assert"
+	"github.com/ohaeusler/websocket/test/assert"
 )
 
 func TestHeader(t *testing.T) {

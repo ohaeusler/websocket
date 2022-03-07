@@ -1,3 +1,4 @@
+//go:build !js
 // +build !js
 
 package websocket
@@ -12,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"nhooyr.io/websocket/errd"
-	"nhooyr.io/websocket/xsync"
+	"github.com/ohaeusler/websocket/errd"
+	"github.com/ohaeusler/websocket/xsync"
 )
 
 // Reader reads from the connection until there is a WebSocket
